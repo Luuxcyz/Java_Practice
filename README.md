@@ -45,15 +45,17 @@
 
 #### 用户表（User）
 
-| 字段名          | 数据类型         | 描述              |
-| ------------- | -------------- | ----------------- |
-| user_id       | INT            | 用户ID，主键，自增 |
-| username      | VARCHAR(50)    | 用户名，唯一       |
-| password      | VARCHAR(100)   | 加密后的密码       |
-| nickname      | VARCHAR(50)    | 昵称              |
-| phone         | VARCHAR(20)    | 电话号码           |
-| membership_days | INT          | 会员天数           |
-| isDelete      | TINYINT(1)     | 是否被伪删除       |
+| **字段名**         | **字段类型**     | **字段说明** | **备注** |
+| --------------- | ------------ | -------- | ------ |
+| user_id         | INT          | 用户ID     | 主键     |
+| username        | VARCHAR(50)  | 用户名      | 唯一     |
+| password        | VARCHAR(100) | 密码（加密存储） |        |
+| nickname        | VARCHAR(50)  | 用户昵称     |        |
+| phone           | VARCHAR(20)  | 电话号码     |        |
+| membership_days | INT          | 剩余会员天数   |        |
+| isDelete      | TINYINT(1)     | 是否被伪删除       |  |
+
+
 
 ### 3.3 加密需求
 
