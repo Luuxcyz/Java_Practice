@@ -11,6 +11,8 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>P14</module>
+      <module>P18</module>
+      <module>Practice</module>
   </modules>
 
   <properties>
